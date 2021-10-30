@@ -1,0 +1,20 @@
+numpy~=1.19.2
+opencv-python~=4.5.3.56
+PyAutoGUI~=0.9.53
+PyUserInput~=0.1.10
+pyWinhook~=1.6.2
+
+'''
+Description:
+ - PyAutoGUI: Read screenshot, install by pip.
+ - PyUserinput: Mouse & Keyboard Input, install by pip.
+ - pyHook: Required by PyUserinput.
+ - pyWinhook (optional): Alternative to pyHook.
+
+Q1.How to install pyHook?
+ - https://www.lfd.uci.edu/~gohlke/pythonlibs/#pyhook (swig is required)
+
+Q2.TypeError: KeyboardSwitch() missing 8 required positional arguments.
+ - Replace pyHook with pyWinhook, that is, import pyWinhook as pyHook
+'''
+
