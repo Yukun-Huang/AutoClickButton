@@ -1,4 +1,4 @@
-# AutoClickButtion
+# AutoClickButton
 readscreen -> visual recongnition -> mouse click
 
 ## Requirement
